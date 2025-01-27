@@ -1,0 +1,108 @@
+[
+  {
+    "id": 1,
+    "username": "defaultUser",
+    "email": "default@example.com",
+    "dateJoined": "2025-01-26T20:23:10.234Z",
+    "library": [
+      {
+        "pieceId": 1,
+        "status": "Want to Learn",
+        "dateAdded": "2025-01-26T23:11:55.306Z",
+        "dateStatusChanged": "2025-01-26T23:11:55.306Z",
+        "rating": null,
+        "review": null,
+        "notes": "",
+        "practiceLogs": [],
+        "difficulty": null,
+        "timeSpentPracticing": 0,
+        "ratings": {
+          "playing": 5,
+          "listening": 5
+        },
+        "lastUpdated": "2025-01-27T02:11:16.273Z",
+        "ratingHistory": [
+          {
+            "id": "1737943874632",
+            "type": "playing",
+            "newValue": 4,
+            "previousValue": 3,
+            "timestamp": "2025-01-27T02:11:14.632Z"
+          },
+          {
+            "id": "1737943875012",
+            "type": "playing",
+            "newValue": 5,
+            "previousValue": 4,
+            "timestamp": "2025-01-27T02:11:15.012Z"
+          },
+          {
+            "id": "1737943875837",
+            "type": "listening",
+            "newValue": 2,
+            "previousValue": 3,
+            "timestamp": "2025-01-27T02:11:15.837Z"
+          },
+          {
+            "id": "1737943876065",
+            "type": "listening",
+            "newValue": 3,
+            "previousValue": 2,
+            "timestamp": "2025-01-27T02:11:16.065Z"
+          },
+          {
+            "id": "1737943876273",
+            "type": "listening",
+            "newValue": 5,
+            "previousValue": 3,
+            "timestamp": "2025-01-27T02:11:16.273Z"
+          }
+        ]
+      },
+      {
+        "pieceId": 2,
+        "status": "Want to Learn",
+        "dateAdded": "2025-01-26T23:35:03.954Z",
+        "dateStatusChanged": "2025-01-26T23:35:03.955Z",
+        "ratings": {
+          "playing": 4,
+          "listening": null
+        },
+        "ratingHistory": [
+          {
+            "id": "1737934510468",
+            "type": "playing",
+            "newValue": 4,
+            "previousValue": null,
+            "timestamp": "2025-01-26T23:35:10.468Z"
+          },
+          {
+            "id": "1737935235627",
+            "type": "playing",
+            "newValue": null,
+            "previousValue": null,
+            "timestamp": "2025-01-26T23:47:15.627Z"
+          },
+          {
+            "id": "1737935272397",
+            "type": "playing",
+            "newValue": 4,
+            "previousValue": null,
+            "timestamp": "2025-01-26T23:47:52.397Z"
+          }
+        ],
+        "privateNotes": "",
+        "practiceLogs": [],
+        "difficulty": null,
+        "timeSpentPracticing": 0,
+        "lastUpdated": "2025-01-26T23:47:52.397Z"
+      }
+    ],
+    "following": [],
+    "followers": [],
+    "settings": {
+      "privacyLevel": "public",
+      "emailNotifications": true
+    }
+  }
+]

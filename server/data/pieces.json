@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Moonlight Sonata",
+    "composer": "Ludwig van Beethoven",
+    "difficulty": 7,
+    "imslp_link": "https://imslp.org/wiki/Piano_Sonata_No.14%2C_Op.27_No.2_(Beethoven%2C_Ludwig_van)"
+  },
+  {
+    "id": 2,
+    "title": "Clair de Lune",
+    "composer": "Claude Debussy",
+    "difficulty": 6,
+    "imslp_link": "https://imslp.org/wiki/Suite_bergamasque_(Debussy%2C_Claude)"
+  },
+  {
+    "id": 3,
+    "title": "Für Elise",
+    "composer": "Ludwig van Beethoven",
+    "difficulty": 4,
+    "imslp_link": "https://imslp.org/wiki/F%C3%BCr_Elise%2C_WoO_59_(Beethoven%2C_Ludwig_van)"
+  }
+] 

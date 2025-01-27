@@ -1,0 +1,116 @@
+.discussion {
+    margin-top: 30px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.message-list {
+    margin: 20px 0;
+}
+
+.no-messages {
+    text-align: center;
+    color: #666;
+    font-style: italic;
+    padding: 20px;
+}
+
+.message {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.message-content {
+    margin-bottom: 10px;
+}
+
+.message-content p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.message-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.like-button {
+    background: none;
+    border: none;
+    color: #666;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.like-button:hover {
+    background: #eee;
+}
+
+.like-button.liked {
+    color: #e91e63;
+}
+
+.replies {
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 2px solid #eee;
+}
+
+.reply {
+    margin-top: 10px;
+    padding: 10px;
+    background: white;
+    border-radius: 4px;
+}
+
+.reply-time {
+    font-size: 0.8em;
+    color: #666;
+}
+
+.message-form {
+    margin-top: 20px;
+}
+
+.message-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+
+.message-form button {
+    padding: 8px 16px;
+    background: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.message-form button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.discussion-loading,
+.discussion-error {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+}
+
+.discussion-error {
+    color: #d32f2f;
+} 

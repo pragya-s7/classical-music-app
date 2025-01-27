@@ -1,0 +1,138 @@
+.pieces-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .search-section {
+    margin: 20px 0 30px;
+    text-align: center;
+  }
+  
+  .search-controls {
+    display: flex;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .search-type {
+    flex: 0 0 200px;
+  }
+  
+  .search-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: white;
+    font-size: 1em;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .search-input:focus,
+  .search-select:focus {
+    outline: none;
+    border-color: #1976d2;
+    box-shadow: 0 0 0 2px rgba(25, 118, 210, 0.2);
+  }
+  
+  .no-results {
+    text-align: center;
+    color: #666;
+    margin-top: 20px;
+    font-style: italic;
+  }
+  
+  .pieces-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+  }
+  
+  .piece-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .piece-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .piece-card h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .piece-card h3 a {
+    color: #1976d2;
+    text-decoration: none;
+  }
+  
+  .piece-card h3 a:hover {
+    text-decoration: underline;
+  }
+  
+  .composer-name {
+    color: #666;
+    margin: 5px 0;
+    font-style: italic;
+  }
+  
+  .piece-card-actions {
+    margin-top: 15px;
+  }
+  
+  .view-details {
+    display: inline-block;
+    padding: 10px 16px;
+    background: #1976d2;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: background-color 0.2s;
+  }
+  
+  .view-details:hover {
+    background: #1565c0;
+  }
+  
+  .pieces-loading {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+    font-size: 1.2em;
+  }
+  
+  .searching-indicator {
+    text-align: center;
+    color: #666;
+    margin-top: 10px;
+    font-style: italic;
+  }
+  
+  .imslp-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    background: #e3f2fd;
+    color: #1976d2;
+    border-radius: 12px;
+    font-size: 0.9em;
+    margin-top: 5px;
+  }
+  

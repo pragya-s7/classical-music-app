@@ -1,0 +1,79 @@
+.piece-ratings {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
+
+.rating-section {
+    margin: 20px 0;
+}
+
+.rating-type {
+    margin-bottom: 15px;
+}
+
+.rating-type label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.star-rating {
+    display: flex;
+    gap: 5px;
+}
+
+.star {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #ddd;
+    cursor: pointer;
+    transition: color 0.2s;
+    padding: 0 5px;
+}
+
+.star:hover,
+.star.filled {
+    color: #ffd700;
+}
+
+.private-notes {
+    margin-top: 20px;
+}
+
+.private-notes h4 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.private-notes textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: inherit;
+}
+
+.save-status {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.saving {
+    color: #666;
+    font-style: italic;
+}
+
+.saved {
+    color: #4caf50;
+}
+
+.ratings-loading {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+} 

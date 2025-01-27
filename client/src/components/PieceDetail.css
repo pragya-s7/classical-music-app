@@ -1,0 +1,204 @@
+.piece-detail {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .back-button {
+    padding: 10px 16px;
+    margin-bottom: 20px;
+    border: none;
+    background: #f0f0f0;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .back-button:hover {
+    background: #e0e0e0;
+  }
+  
+  .piece-header {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .piece-header h1 {
+    margin: 0;
+    font-size: 2.8em;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .piece-header h2 {
+    margin: 10px 0;
+    font-size: 1.8em;
+    color: #555;
+    font-weight: normal;
+  }
+  
+  .piece-actions {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .add-to-library {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .add-to-library button {
+    padding: 12px 20px;
+    background: #4CAF50;
+    color: white;
+    font-size: 1em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .add-to-library button:hover {
+    background: #43A047;
+  }
+  
+  .status-dropdown select {
+    padding: 12px;
+    font-size: 1em;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+  }
+  
+  .library-status {
+    padding: 12px 20px;
+    background: #e8f5e9;
+    border-radius: 6px;
+    color: #2e7d32;
+    font-weight: bold;
+  }
+  
+  .piece-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+  }
+  
+  .piece-info {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imslp-section {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imslp-link {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #1976d2;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .imslp-link:hover {
+    background: #1565c0;
+  }
+  
+  .imslp-note {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .imslp-embed {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imslp-embed iframe {
+    width: 100%;
+    height: 800px;
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  .imslp-embed h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .imslp-embed ul {
+    margin: 15px 0;
+    padding-left: 20px;
+  }
+  
+  .imslp-embed li {
+    margin: 5px 0;
+    color: #444;
+  }
+  
+  .imslp-disclaimer {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    font-style: italic;
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .discussion-section {
+    grid-column: 1 / -1;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  .discussion-section h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .coming-soon {
+    color: #666;
+    font-style: italic;
+  }
+  
+  
+ 
+  @media (max-width: 768px) {
+    .piece-content {
+      grid-template-columns: 1fr;
+    }
+  
+    .imslp-embed iframe {
+      height: 600px;
+    }
+  }
+  
+
+  
